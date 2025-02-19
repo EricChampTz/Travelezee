@@ -1,0 +1,51 @@
+{
+  "name": "bolt-expo-starter",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "EXPO_NO_TELEMETRY=1 expo start --clear",
+    "build:web": "expo export --platform web",
+    "lint": "expo lint",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-navigation/native": "^6.1.9",
+    "@react-three/drei": "^9.92.7",
+    "@react-three/fiber": "^8.15.12",
+    "@supabase/supabase-js": "^2.39.3",
+    "expo": "^52.0.35",
+    "expo-blur": "~12.9.1",
+    "expo-constants": "~15.4.5",
+    "expo-font": "~11.10.2",
+    "expo-gl": "~13.6.0",
+    "expo-haptics": "~12.8.1",
+    "expo-image-picker": "~14.7.1",
+    "expo-linear-gradient": "~12.7.1",
+    "expo-linking": "~6.2.2",
+    "expo-router": "^3.5.24",
+    "expo-splash-screen": "^0.29.22",
+    "expo-status-bar": "~1.11.1",
+    "expo-system-ui": "~2.9.3",
+    "expo-web-browser": "~12.8.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "^0.73.11",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-maps": "1.8.0",
+    "react-native-reanimated": "~3.6.1",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.19.6",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "@types/three": "^0.160.0",
+    "typescript": "^5.1.3"
+  }
+}
